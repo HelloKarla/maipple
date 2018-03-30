@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MAIPPLE</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <style>
+body,html{
+    margin: 0;
+    position: relative;
+    width: auto;
+}
+.logo{
+    width: 12%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+.navbar-nav > li{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 100;
+  font-size: 15px;
+}
+#nav2 > li{
+    font-weight: 400;
+    color: black;
+
+}
+#nav2 > .nav-item3{
+    padding-right: 190px;
+
+}
+.form-inline{
+    margin-right: 0px; 
+}
+#img{
+    background-image: url("image/ZN97ZIF3ZU.jpg");
+    height: 350px;
+}
+.imgtext{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+.imgtext > p,h5{
+    margin-left: 260px;
+}
+h5{
+    margin-top: 130px;
+    font-size: 16px;
+}
+.list-group{
+    padding-top: 25px;
+    margin-left: 70px;
+}
+.list-group-item{
+    padding-top: 5px;
+    border: none;
+    font-size: 15px;
+}
+.card{
+    margin-top: 25px;
+    height: 300px;
+    width: 250px;   
+}
+.card-img-top{
+    width: 70%;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #333333;
+    color: white;
+}
+.footer-list-group{
+    display: flex;
+}
+.footer-list1{
+    flex: 1;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 180px;
+    font-size: 15px;
+    list-style: none;
+}
+.footer-list2{
+    flex: 1;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: -60px;
+    font-size: 15px;
+    list-style: none;
+}
+.footer-list3{
+    flex: 1;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: -60px;
+    font-size: 15px;
+    list-style: none;
+}
+.footer-list4{
+    flex: 1;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: -60px;
+    font-size: 15px;
+    list-style: none;
+}
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="logobar">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="image/logo.png" alt="" class="logo" href="index.html">
+            </div>            
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto" >
+      <li><a class="nav-item nav-link" href="#">最新商品</a></li>
+      <li><a class="nav-item nav-link" href="#">流行女裝</a></li>
+      <li><a class="nav-item nav-link" href="#">潮流男裝</a></li>
+      <li><a class="nav-item nav-link" href="#">媽媽寶貝</a></li>
+      <li><a class="nav-item nav-link" href="#">飾品配件</a></li>
+      <li><a class="nav-item nav-link" href="#">時尚包款</a></li>
+      <li><a class="nav-item nav-link" href="#">各類鞋款</a></li>
+      <li><a class="nav-item nav-link" href="#">彩妝保養</a></li>
+      <li><a class="nav-item nav-link" href="#">其他</a></li>
+    </ul>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto" id="nav2">
+      <li><a class="nav-item nav-link" href="https://itunes.apple.com/tw/app/maipple-pai-maiapp/id1049225064?l=tw&ls=1&mt=8" target="_blank">免費下載App</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">商品分類</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown nav-item3">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">品牌名</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">流行女裝</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="輸入關鍵字" aria-label="Search">
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="container-fluid" id="img">
+    <div class="row">
+        <div class="col-md-12 imgtext">
+            <p>歡迎您加入MAIPPLE!</p>
+            <h5>台灣唯一 時尚精品服飾拍賣！
+            <br>
+            <br>
+            時尚精品服飾交易平台、 瀏覽眾多 服飾 、鞋子、包包、化妝品、飾品配件、名牌精品！
+            <br>
+            快來加入MAIPPLE、打造您個人的時尚服飾・精品！ 使用智慧型手機即可快速上架。
+            <br>
+            第三方支付系統、提供安全的買賣體驗。</h5>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">   
+            <ul class="list-group">
+                    <li class="list-group-item disabled"> ✔ 熱銷商品 !</li>
+                    <li class="list-group-item">1 流行女裝</li>
+                    <li class="list-group-item">2 飾品項鍊</li>
+                    <li class="list-group-item">3 手錶</li>
+                    <li class="list-group-item">4 圍巾/絲巾</li>
+                    <li class="list-group-item">5 側背包</li>
+                    <li class="list-group-item">6 斜背包</li>
+                    <li class="list-group-item">7 手拿包</li>
+                    <li class="list-group-item">8 臉部保養</li>
+                    <li class="list-group-item">9 繽紛眼部彩妝</li>
+                    <li class="list-group-item">10 繽紛唇部彩妝</li>
+                    <li class="list-group-item disabled"> ✔ 人氣品牌 !</li>
+                    <li class="list-group-item">1 PRADA</li>
+                    <li class="list-group-item">2 NIKE</li>
+                    <li class="list-group-item">3 LOUIS VUITTON</li>
+                    <li class="list-group-item">4 CHANEL</li>
+                    <li class="list-group-item">5 GUCCI</li>
+                    <li class="list-group-item">6 SAINT LAURENT</li>
+                    <li class="list-group-item">7 ADIDAS</li>
+                    <li class="list-group-item">8 MARC JACOBS</li>
+                    <li class="list-group-item">9 KATE SPADE</li>
+                    <li class="list-group-item">10 CELINE</li>
+            </ul>  
+        </div>
+        <div class="col-md-9" >
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="./image/clothes9.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">手臂條紋毛衣</p>
+                        <p class="card-text">NT$700</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-md-12 footer-list-group">
+                <ul class="footer-list1">
+                    <li style="font-size: 18px" class="footer-list-item disabled">ITEMS</a></li>
+                    <br>
+                    <li style="font-weight: 100" class="footer-list-item" href="#">最新商品</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">流行女裝</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">潮流男裝</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">最新商品</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">最新商品</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">媽媽寶貝</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">飾品配件</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">時尚包款</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">各類鞋款</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">彩妝保養</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">其他</li>
+                </ul>
+                <ul class="footer-list2">
+                    <li style="font-size: 18px" class="footer-list-item disabled">SERVICE</li>
+                    <br>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">常見問題</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">使用規範</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">隱私政策</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">服務條款</li>
+                </ul>
+                <ul class="footer-list3">
+                    <li style="font-size: 18px" class="footer-list-item disabled">MAIPPLE</li>
+                    <br>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">公司簡介</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">廠商合作專區</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="#">聯絡我們</li>
+                </ul>
+                <ul class="footer-list4">
+                    <li style="font-size: 18px" class="footer-list-item disabled">GET INFO</li>
+                    <br>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="https://www.facebook.com/maipple" target="_blank">Facebook</li>
+                    <li style="font-weight: 100;opacity: 0.8" class="footer-list-item" href="https://www.instagram.com/maipple.tw/" target="_blank">Instagram</li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
